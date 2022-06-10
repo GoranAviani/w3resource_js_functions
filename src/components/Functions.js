@@ -19,12 +19,10 @@ Expected Output : 34223
             console.log(reverse)
         }
     */
-
-        console.log(number)
+        /*console.log(number)*/
         const numberStr = number.toString().split("").reverse().join("")
-        console.log(numberStr)
-
-
+        /*console.log(numberStr)*/
+        return numberStr
     }
 
 
