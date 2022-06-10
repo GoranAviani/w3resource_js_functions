@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Functions from "./components/Functions";
 
 function App() {
   return (
-    <>App</>
+    <>
+      App
+      <Functions/>
+
+    </>
   );
 }
 
