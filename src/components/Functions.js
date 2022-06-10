@@ -11,14 +11,22 @@ Expected Output : 34223
  */
 
     const first = (number=  1234) => {
-        console.log(number)
+     /*   console.log(number)
         let reverse = []
         const numberStr = number.toString()
         for (let x = numberStr.length-1; x > -1; x--){
             reverse.push(numberStr[x])
             console.log(reverse)
         }
+    */
+
+        console.log(number)
+        const numberStr = number.toString().split("").reverse()
+        console.log(numberStr)
+
+
     }
+
 
     return(
         <>
