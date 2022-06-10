@@ -14,7 +14,7 @@ Expected Output : 34223
         console.log(number)
         let reverse = []
         const numberStr = number.toString()
-        for (let x = numberStr.length-1; x > 0; x--){
+        for (let x = numberStr.length-1; x > -1; x--){
             reverse.push(numberStr[x])
             console.log(reverse)
         }
