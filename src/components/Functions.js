@@ -21,7 +21,7 @@ Expected Output : 34223
     */
 
         console.log(number)
-        const numberStr = number.toString().split("").reverse()
+        const numberStr = number.toString().split("").reverse().join("")
         console.log(numberStr)
 
 
